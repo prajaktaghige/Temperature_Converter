@@ -1,0 +1,85 @@
+/* Center the content within the page */
+.layout-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f7f9fc; /* Light background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Slightly wider for better spacing */
+}
+
+/* Heading style */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff; /* Primary blue color */
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Flexbox row layout for the input sections */
+.layout-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Style for the input fields */
+input.large {
+  font-size: 18px; /* Slightly larger font */
+  padding: 10px;
+  border: 1px solid #007bff; /* Primary blue border */
+  border-radius: 4px;
+  width: 160px; /* Adjusted width for better fit */
+  background-color: #e9f5ff; /* Light blue background */
+  color: #007bff; /* Primary blue text */
+  outline: none; /* Removes default focus outline */
+  transition: all 0.3s ease; /* Smooth transition for focus */
+}
+
+/* Change input field style on focus */
+input.large:focus {
+  border-color: #0056b3; /* Darker blue on focus */
+  background-color: #d0e7ff; /* Slightly darker background */
+}
+
+/* Label styling */
+label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Button styling for optional use */
+button.convert {
+  background-color: #28a745; /* Green background */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Button hover effect */
+button.convert:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Optional: Adding a bit of style to the overall converter box */
+.layout-column {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f0f8ff; /* Soft blue background */
+}
